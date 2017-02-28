@@ -4,9 +4,11 @@ public class MathCode {
 
     public static void main(String[] args) {
 
-        double a = 1.00;
-        double b = 2.00;
-        double c = 3.00;
+        calc(1.00, 0.00, 0.00);
+    }
+
+    public static void calc(double a, double b, double c) {
+
         double x1, x2, x;
         double D = (b * b - 4 * a * c);
 
@@ -31,3 +33,4 @@ public class MathCode {
         }
     }
 }
+
