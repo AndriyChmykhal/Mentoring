@@ -3,7 +3,7 @@ package com.learning;
 public class SwitchDayOfWeek {
     public static void main(String[] args) {
 
-        int day = 13;
+        int day = 1;
         String dayString;
         switch (day) {
             case 1:
