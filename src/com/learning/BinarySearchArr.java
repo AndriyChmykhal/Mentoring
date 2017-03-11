@@ -6,7 +6,7 @@ public class BinarySearchArr {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int x = 11;
-        boolean result = false;
+        boolean result;
 
         int first = 0;
         int last = arr.length - 1;
