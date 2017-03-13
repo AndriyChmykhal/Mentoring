@@ -2,21 +2,24 @@ package com.learning;
 
 //Find if number belongs to the array using binary search algorithm (Hint: use bubble sort from previous task)
 
-public class BinarySearchArray {
+public class BinarySearcher {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int[] inputArr = new int[]{10, 1, 8, 2, -1, 14, 10, 3, 4, 0};
+
+
+        int[] sortedArray = BubbleSorter.sort(inputArr);
         int x = 1;
         boolean result = false;
 
         int start = 0;
-        int finish = arr.length - 1;
+        int finish = sortedArray.length - 1;
         while (start <= finish && !result) {
             int middle = (start + finish) / 2;
-            if (x == arr[middle]) {
+            if (x == sortedArray[middle]) {
                 result = true;
-            } else if (x > arr[middle]) {
+            } else if (x > sortedArray[middle]) {
                 start = (middle + 1);
-            } else if (x < arr[middle]) {
+            } else if (x < sortedArray[middle]) {
                 finish = (middle - 1);
             } else {
                 break;
