@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="6 cд">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/learning/ComputePI.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/learning/BinarySearchArr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/learning/BubbleSorting.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/learning/ComputePI.class" afterPath="$PROJECT_DIR$/target/classes/com/learning/ComputePI.class" />
+    <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/learning/BinarySearchArray.java" afterPath="$PROJECT_DIR$/src/com/learning/BinarySearcher.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/learning/BubbleSortingArray.java" afterPath="$PROJECT_DIR$/src/com/learning/BubbleSorter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/BubbleSorter.java" afterPath="$PROJECT_DIR$/src/com/learning/BubbleSorter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/CheckOddEven.java" afterPath="$PROJECT_DIR$/src/com/learning/CheckOddEven.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java" afterPath="$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/SumAndAverage.java" afterPath="$PROJECT_DIR$/src/com/learning/SumAndAverage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +25,8 @@
       <file leaf-file-name="BubbleSorter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/BubbleSorter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +35,8 @@
       <file leaf-file-name="CheckOddEven.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/CheckOddEven.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -47,8 +45,8 @@
       <file leaf-file-name="PrintNumberInWord.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+            <state relative-caret-position="51">
+              <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -57,8 +55,8 @@
       <file leaf-file-name="SumAndAverage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learning/SumAndAverage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -67,8 +65,8 @@
       <file leaf-file-name="BinarySearcher.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/BinarySearcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="408">
+              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -106,13 +104,13 @@
         <option value="$PROJECT_DIR$/src/com/learning/SwitchDayOfWeek.java" />
         <option value="$PROJECT_DIR$/src/com/learning/BubbleSorting.java" />
         <option value="$PROJECT_DIR$/src/com/learning/BinarySearchArr.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/ComputePI.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/BubbleSortingArray.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/BinarySearchArray.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/BubbleSorter.java" />
         <option value="$PROJECT_DIR$/src/com/learning/CheckOddEven.java" />
         <option value="$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java" />
         <option value="$PROJECT_DIR$/src/com/learning/SumAndAverage.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/ComputePI.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/BubbleSortingArray.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/BubbleSorter.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/BinarySearchArray.java" />
       </list>
     </option>
   </component>
@@ -549,12 +547,19 @@
       <option name="project" value="LOCAL" />
       <updated>1489393351679</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="BubbleSorter provides array to BinarySearcher">
+      <created>1489409996870</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1489409996870</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -571,7 +576,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17239584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -592,7 +597,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="syntax issues" />
     <MESSAGE value="BibarySearchArr and BubbleSorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="BibarySearchArr and BubbleSorting" />
+    <MESSAGE value="BubbleSorter provides array to BinarySearcher" />
+    <option name="LAST_COMMIT_MESSAGE" value="BubbleSorter provides array to BinarySearcher" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -767,38 +773,6 @@
     <entry file="file://$PROJECT_DIR$/src/com/learning/MathCode.java" />
     <entry file="file://$PROJECT_DIR$/src/com/learning/SwitchLoop.java" />
     <entry file="file://$PROJECT_DIR$/src/com/learning/SwitchDayOfWeek.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/learning/CheckOddEven.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/BinarySearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/BubbleSorter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/ComputePI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -807,10 +781,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/BubbleSorter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/BinarySearcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/CheckOddEven.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/PrintNumberInWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/SumAndAverage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding />
         </state>
       </provider>
