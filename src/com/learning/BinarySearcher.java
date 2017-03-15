@@ -1,5 +1,4 @@
 package com.learning;
-
 //Find if number belongs to the array using binary search algorithm (Hint: use bubble sort from previous task)
 public class BinarySearcher {
     public static void main(String[] args) {
