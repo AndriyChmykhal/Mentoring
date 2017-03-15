@@ -2,9 +2,9 @@ package com.learning;
 //Additional: Write a program called PrintNumberInWord which prints "ONE", "TWO",... , "NINE", "OTHER" if the int variable "number" is 1, 2,... , 9, or other, respectively.
 public class PrintNumberInWord {
     public static void main(String[] args) {
-        getDay(10);
+        getDayName(10);
     }
-    private static void getDay(int day) {
+    private static void getDayName(int day) {
         String dayString;
         switch (day) {
             case 1:
