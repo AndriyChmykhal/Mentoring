@@ -1,10 +1,14 @@
 package com.learning;
+
 //Additional: Write a program called SumAndAverage to produce the sum of 1, 2, 3, ..., to 100. Also compute and display the average.
 public class SumAndAverage {
-    public static void main(String[] args){
+    public static void main(String[] args) {
+        calculate(1, 100);
+    }
+    private static void calculate(int a, int b) {
         double Sum = 0;
         double Average = 0;
-        for (int i = 1; i <= 100; i++){
+        for (int i = a; i <= b; i++) {
             Sum += i;
             Average = Sum / i;
         }
@@ -12,3 +16,6 @@ public class SumAndAverage {
         System.out.println("Average = " + Average);
     }
 }
+
+
+

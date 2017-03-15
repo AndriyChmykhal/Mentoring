@@ -1,8 +1,10 @@
 package com.learning;
 //Additional: Write a program called PrintNumberInWord which prints "ONE", "TWO",... , "NINE", "OTHER" if the int variable "number" is 1, 2,... , 9, or other, respectively.
 public class PrintNumberInWord {
-    public static void main (String[] args){
-        int day = 3;
+    public static void main(String[] args) {
+        getDay(10);
+    }
+    private static void getDay(int day) {
         String dayString;
         switch (day) {
             case 1:
@@ -34,7 +36,7 @@ public class PrintNumberInWord {
                 break;
             default:
                 dayString = "Number is out of scope of the program";
-            }
-            System.out.println(dayString);
+        }
+        System.out.println(dayString);
     }
 }

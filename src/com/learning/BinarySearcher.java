@@ -1,10 +1,12 @@
 package com.learning;
+
 //Find if number belongs to the array using binary search algorithm (Hint: use bubble sort from previous task)
 public class BinarySearcher {
     public static void main(String[] args) {
-        int[] inputArr = new int[]{10, 1, 8, 2, -1, 14, 10, 3, 4, 0};
+        searcher (new int[]{10, 1, 8, 2, -1, 14, 10, 3, 4, 0}, 1);
+    }
+    private static void searcher(int[] inputArr, int x) {
         int[] sortedArray = BubbleSorter.sort(inputArr);
-        int x = 1;
         boolean result = false;
         int start = 0;
         int finish = sortedArray.length - 1;
@@ -23,3 +25,4 @@ public class BinarySearcher {
         System.out.print(result);
     }
 }
+
