@@ -7,9 +7,11 @@ public class Test {
 
     public static void main(String[] args) {
         Car car = new Car();
-        car.setManufacturer("Toyota");
-        car.options = "cabriolet";
-
+        car.setManufacturer("bugatti");
+        car.setYear("2017");
         System.out.println(car.getManufacturer());
+
+        Car car1 = new Car("VW", "Golf", "2016", "GTR");
+        System.out.println(car1.getYear());
     }
 }

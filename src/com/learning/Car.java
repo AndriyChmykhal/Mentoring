@@ -24,7 +24,6 @@ public class Car {
         this.options = options;
     }
 
-
     public String getManufacturer() {
         return manufacturer;
     }
