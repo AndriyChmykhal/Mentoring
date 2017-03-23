@@ -1,5 +1,5 @@
 package com.learning;
-public class PersonDescriber {
+public class Person {
     String name;
     String surname;
     String email;
