@@ -20,8 +20,8 @@ class TimeServer implements Observable {
     }
     @Override
     public void notifyObservers() {
-        for (Observer ob : observers) {
-            ob.update(this.date);
+        for (Observer observer : observers) {
+            observer.update(this.date);
         }
     }
 }
