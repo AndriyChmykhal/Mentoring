@@ -1,9 +1,6 @@
 package com.learning;
 
 public interface Observable {
-    public void registerObserver(Observer observer);
-
-    public void removeObserver(Observer observer);
-
-    public void notifyObservers();
+    void registerObserver(Observer observer);
+    void notifyObservers();
 }

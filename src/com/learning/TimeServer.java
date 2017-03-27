@@ -9,27 +9,15 @@ class TimeServer implements Observable {
     public TimeServer(String date) {
         this.date = date;
     }
-
-    public String getdate() {
-        return date;
-    }
-
-    public void setdate(String date) {
+    public void setDate(String date) {
         this.date = date;
         System.out.println("TimeServer updates the date to " + date);
         notifyObservers();
     }
-
     @Override
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
-
-    @Override
-    public void removeObserver(Observer observer) {
-        observers.remove(observer);
-    }
-
     @Override
     public void notifyObservers() {
         for (Observer ob : observers) {

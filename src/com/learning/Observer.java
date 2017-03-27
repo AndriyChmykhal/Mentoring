@@ -1,5 +1,5 @@
 package com.learning;
 
 interface Observer {
-    public void update(String date);
+    void update(String date);
 }
