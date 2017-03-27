@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/learning/Observable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/learning/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/learning/TimeServer.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/learning/DateNotificatopr.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/Launcher.java" afterPath="$PROJECT_DIR$/src/com/learning/Launcher.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,8 +31,8 @@
       <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learning/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="374">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#139#140#0" expanded="true" />
@@ -634,7 +629,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490286914595</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TimeServerApp">
+      <created>1490618268322</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1490618268322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -680,7 +682,8 @@
     <MESSAGE value="Refactoring" />
     <MESSAGE value="Calculator/Person/Car classes" />
     <MESSAGE value="comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment" />
+    <MESSAGE value="TimeServerApp" />
+    <option name="LAST_COMMIT_MESSAGE" value="TimeServerApp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -875,8 +878,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" lean-forward="true" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="374">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
