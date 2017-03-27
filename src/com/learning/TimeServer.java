@@ -14,11 +14,9 @@ class TimeServer implements Observable {
         System.out.println("TimeServer updates the date to " + date);
         notifyObservers();
     }
-    @Override
     public void registerObserver(Observer observer) {
         observers.add(observer);
     }
-    @Override
     public void notifyObservers() {
         for (Observer observer : observers) {
             observer.update(this.date);

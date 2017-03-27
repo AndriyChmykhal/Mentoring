@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/Client.java" afterPath="$PROJECT_DIR$/src/com/learning/Client.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/TimeServer.java" afterPath="$PROJECT_DIR$/src/com/learning/TimeServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/learning/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -55,17 +54,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TimeServer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learning/TimeServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#150#160#0" expanded="true" />
                 <element signature="e#259#260#0" expanded="true" />
                 <element signature="e#291#292#0" expanded="true" />
-                <element signature="e#527#528#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#513#514#0" expanded="true" />
+                <element signature="e#552#553#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +137,8 @@
         <option value="$PROJECT_DIR$/src/com/learning/Observer.java" />
         <option value="$PROJECT_DIR$/src/com/learning/Observable.java" />
         <option value="$PROJECT_DIR$/src/com/learning/Launcher.java" />
-        <option value="$PROJECT_DIR$/src/com/learning/TimeServer.java" />
         <option value="$PROJECT_DIR$/src/com/learning/Client.java" />
+        <option value="$PROJECT_DIR$/src/com/learning/TimeServer.java" />
       </list>
     </option>
   </component>
@@ -631,7 +630,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490619160428</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TimeServerApp update2">
+      <created>1490619580719</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1490619580719</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -679,7 +685,8 @@
     <MESSAGE value="comment" />
     <MESSAGE value="TimeServerApp" />
     <MESSAGE value="TimeServerApp update" />
-    <option name="LAST_COMMIT_MESSAGE" value="TimeServerApp update" />
+    <MESSAGE value="TimeServerApp update2" />
+    <option name="LAST_COMMIT_MESSAGE" value="TimeServerApp update2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -846,20 +853,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/TimeServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#160#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#527#528#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/learning/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -885,6 +878,20 @@
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/TimeServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="e#150#160#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="true" />
           </folding>
         </state>
       </provider>
