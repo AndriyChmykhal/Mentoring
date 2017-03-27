@@ -8,7 +8,7 @@ public class Launcher {
         currentTime.registerObserver(client1);
         currentTime.registerObserver(client2);
         currentTime.setDate(new java.util.Date().toString());
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         currentTime.setDate(new java.util.Date().toString());
     }
 }
