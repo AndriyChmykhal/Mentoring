@@ -5,10 +5,14 @@ package com.learning;
 public class StringModifier {
     public static void main (String[] args){
 
-        String comp = Encoder.compress("Hellllllllllo");
-        String decomp = Encoder.decompress("H9e4e5lo");
+        Encoder encoder = new Encoder();
 
-        System.out.println(comp);
+        encoder.setInput("Helllooooo");
+        String result =  encoder.compress();
+
+        String decomp = encoder.decompress();
+
+        System.out.println(result);
         System.out.println(decomp);
     }
 }
