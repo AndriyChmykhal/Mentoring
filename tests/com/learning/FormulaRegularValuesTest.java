@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 /**
  * Created by ASUS on 5/10/2017.
  */
-public class FormulaTest {
+public class FormulaRegularValuesTest {
 
     @Test
     public void testDZero() {
