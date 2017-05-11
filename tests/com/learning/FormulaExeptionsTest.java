@@ -2,13 +2,12 @@ package com.learning;
 
 import org.junit.Test;
 
-/**
- * Created by ASUS on 5/11/2017.
- */
 public class FormulaExeptionsTest {
 
-    @Test
-    public void testCalculate() throws Exception {
+    @Test(expected = Exception.class)
+    public void testAZero() {
+        Formula formula = new Formula();
+        formula.calculatex1(0, 2, 1);
 
     }
 }

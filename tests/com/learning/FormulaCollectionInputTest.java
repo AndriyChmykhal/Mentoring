@@ -11,20 +11,26 @@ import static org.junit.Assert.assertEquals;
 
 @RunWith(value=Parameterized.class)
 public class FormulaCollectionInputTest {
-    private String expected;
+    private double expected1;
+    private double expected2;
     private double a, b, c;
     @Parameterized.Parameters
     public static Collection data() {
-        return Arrays.asList( new Object[ ][ ] { { "x1 = " + (-1.0), 1, 2, 1 }, {"x1 = " + (-3.186140661634507) + "x2 = " + (-0.31385933836549285), 2, 7, 2 } });
+        return Arrays.asList( new Object[ ][ ] {
+                { -1.0, -1.0, 1, 2, 1 },
+                {-3.18, -0.31, 2, 7, 2 }
+        });
     }
-    public FormulaCollectionInputTest(String expected, double a, double b, double c) { // constructor
-        this.expected = expected;
+    public FormulaCollectionInputTest(double expected1, double expected2, double a, double b, double c) { // constructor
+        this.expected1 = expected1;
+        this.expected2 = expected2;
         this.a = a;
         this.b = b;
         this.c = c;
     }
     @Test
     public void calculate() {
-        assertEquals(expected, new Formula().calculate(a, b, c));
+        assertEquals(expected1, new Formula().calculatex1(a, b, c), 0.01);
+        assertEquals(expected2, new Formula().calculatex2(a, b, c),0.01);
     }
 }
