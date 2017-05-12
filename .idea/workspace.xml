@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/com/learning/FormulaRegularValuesTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/learning/Launcher.java" afterPath="$PROJECT_DIR$/src/com/learning/Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/learning/FormulaBoundaryValuesTest.java" afterPath="$PROJECT_DIR$/tests/com/learning/FormulaBoundaryValuesTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/learning/FormulaCollectionInputTest.java" afterPath="$PROJECT_DIR$/tests/com/learning/FormulaCollectionInputTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/learning/FormulaExeptionsTest.java" afterPath="$PROJECT_DIR$/tests/com/learning/FormulaExeptionsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/com/learning/FormulaExtremeValuesTest.java" afterPath="$PROJECT_DIR$/tests/com/learning/FormulaExtremeValuesTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Formula.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Formula.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/learning/Formula.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -55,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FormulaExtremeValuesTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FormulaExtremeValuesTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/com/learning/FormulaExtremeValuesTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
@@ -769,7 +763,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494514258186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="task7 refactoring">
+      <created>1494591313121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1494591313121</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -781,9 +782,6 @@
     </history-entry>
     <history-entry file="FormulaCollectionInputTest - 2017.05.12 at 15h 03m 32s.xml">
       <configuration name="FormulaCollectionInputTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FormulaExeptionsTest - 2017.05.12 at 14h 55m 34s.xml">
-      <configuration name="FormulaExeptionsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FormulaExeptionsTest - 2017.05.12 at 14h 57m 01s.xml">
       <configuration name="FormulaExeptionsTest" configurationId="JUnit" />
@@ -798,6 +796,9 @@
       <configuration name="FormulaExeptionsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FormulaExeptionsTest - 2017.05.12 at 15h 04m 52s.xml">
+      <configuration name="FormulaExeptionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FormulaExeptionsTest - 2017.05.12 at 15h 28m 17s.xml">
       <configuration name="FormulaExeptionsTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FormulaExtremeValuesTest - 2017.05.12 at 15h 12m 12s.xml">
@@ -818,7 +819,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30211818" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36343366" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2787068" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1163,14 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/learning/Formula.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/com/learning/FormulaRegularValuesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1211,6 +1204,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/learning/Formula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding />
         </state>
       </provider>
