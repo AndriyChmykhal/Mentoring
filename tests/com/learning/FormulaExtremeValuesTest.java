@@ -1,9 +1,11 @@
 package com.learning;
 
-/**
- * a == 0
- * b == 0
- */
-public class FormulaExtremeValuesTest {
+import org.junit.Test;
 
+public class FormulaExtremeValuesTest {
+    @Test(expected = Exception.class, timeout = 100)
+    public void testВEqualsZero() {
+        Formula formula = new Formula();
+        formula.calculatex1(1, 0, 1);
+    }
 }
