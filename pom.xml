@@ -39,8 +39,6 @@
     </build>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok-maven -->
-
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
