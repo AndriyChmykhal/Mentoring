@@ -16,7 +16,9 @@ public class FacebookSignIn {
         //WebDriver driver = new FirefoxDriver();
         driver.navigate().to("https://facebook.com");
         driver.findElement(By.id("email")).sendKeys("chmykhal@ukr.net");
-        driver.findElement(By.id("pass")).sendKeys("o525O525");
+        driver.findElement(By.id("pass")).sendKeys("");
+        driver.findElement(By.ByName.id("loginbutton")).submit();
+        driver.wait(3000);
 
 
         driver.close();
