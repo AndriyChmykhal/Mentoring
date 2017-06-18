@@ -866,7 +866,14 @@
       <option name="project" value="LOCAL" />
       <updated>1497783174773</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Facebook">
+      <created>1497783635968</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1497783635968</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -959,7 +966,8 @@
     <MESSAGE value="Maven project and tests" />
     <MESSAGE value="task9" />
     <MESSAGE value="log4j" />
-    <option name="LAST_COMMIT_MESSAGE" value="log4j" />
+    <MESSAGE value="Facebook" />
+    <option name="LAST_COMMIT_MESSAGE" value="Facebook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

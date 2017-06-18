@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebElement;
 
 public class FacebookSignIn {
     public static void main(String[] args){
@@ -14,14 +15,13 @@ public class FacebookSignIn {
         //Firefox
         //System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.17.0-win64\\geckodriver.exe");
         //WebDriver driver = new FirefoxDriver();
+        driver.manage().window().maximize();
         driver.navigate().to("https://facebook.com");
-        driver.findElement(By.id("email")).sendKeys("chmykhal@ukr.net");
-        driver.findElement(By.id("pass")).sendKeys("");
-        driver.findElement(By.ByName.id("loginbutton")).submit();
-        driver.wait(3000);
-
-
-        driver.close();
+        driver.findElement(By.id("email")).sendKeys("a.chmykhal@gmail.com");
+        driver.findElement(By.id("pass")).sendKeys("Qwerty123!");
+        driver.findElement(By.id("loginbutton")).submit();
+        driver.findElement(By.id("blueBarDOMInspector")).isDisplayed();
+        driver.quit();
     }
 
 }
