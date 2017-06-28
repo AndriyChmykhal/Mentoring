@@ -21,6 +21,8 @@ public class FacebookSignIn {
         driver.findElement(By.id("pass")).sendKeys("Qwerty123!");
         driver.findElement(By.id("loginbutton")).submit();
         driver.findElement(By.id("blueBarDOMInspector")).isDisplayed();
+        driver.findElement(By.id("userNavigationLabel")).click();
+        driver.findElement(By.className("_54nc")).click();
         driver.quit();
     }
 
