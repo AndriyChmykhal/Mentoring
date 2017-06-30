@@ -22,7 +22,7 @@ public class FacebookSignIn {
         driver.findElement(By.id("loginbutton")).submit();
         driver.findElement(By.id("blueBarDOMInspector")).isDisplayed();
         driver.findElement(By.id("userNavigationLabel")).click();
-        driver.findElement(By.className("_54nc")).click();
+        driver.findElement(By.xpath("//ul[@class='_54nf']/li[last()]")).click();
         driver.quit();
     }
 

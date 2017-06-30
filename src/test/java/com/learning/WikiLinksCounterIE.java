@@ -1,11 +1,13 @@
 package com.learning;
 
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class WikiLinksCounterIE {
-    public static void main(String[] args) {
+    @Test
+    public void testOnIE() {
         String service = "C:\\IEDriverServer_x64_3.4.0\\IEDriverServer.exe";
         System.setProperty("webdriver.ie.driver", service);
         InternetExplorerDriver driver = new InternetExplorerDriver();
