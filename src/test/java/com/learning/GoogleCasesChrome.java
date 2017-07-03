@@ -20,7 +20,8 @@ public class GoogleCasesChrome {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         driver.get("https://www.google.com");
-        driver.findElement(By.cssSelector("#gs_htif0")).sendKeys("selenium automation testing");
+        driver.findElement(By.id("lst-ib")).sendKeys("selenium automation testing");
+        driver.findElement(By.name("btnG")).click();
 
     }
 }
