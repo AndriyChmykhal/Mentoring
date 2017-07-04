@@ -1,24 +1,21 @@
 package com.learning;
 
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class WikiLinksCounterSafari {
-    private WebDriver driver = null;
+    static WebDriver driver;
 
-    @Before
-    public void createDriver(){
+    @BeforeClass
+    public static void createDriver(){
         driver = new SafariDriver();
     }
 
-    @After
-    public void quitDriver(){
+    @AfterClass
+    public static void quitDriver(){
         driver.quit();
     }
 
