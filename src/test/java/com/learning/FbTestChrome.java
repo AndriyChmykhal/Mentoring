@@ -17,10 +17,6 @@ public class FbTestChrome {
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
-    @AfterClass
-    public static void quitDriver(){
-        driver.quit();
-    }
     @Test
     public void testChrome(){
         driver.manage().window().maximize();
@@ -33,6 +29,11 @@ public class FbTestChrome {
         driver.findElement(By.xpath("//div[@class='_3ixn']")).click();
         driver.findElement(By.id("userNavigationLabel")).click();
         driver.findElement(By.xpath("//ul[@class='_54nf']/li[last()]")).click();
+        driver.quit();
+    }
+
+    @AfterClass
+    public static void quitDriver(){
         driver.quit();
     }
 }

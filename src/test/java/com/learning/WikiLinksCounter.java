@@ -16,21 +16,12 @@ public class WikiLinksCounter {
     public static void createDriver(){
         String exePath = "C:\\chromedriver_win32\\chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", exePath);
-        WebDriver driver = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-    }
-
-    @AfterClass
-    public static void quitDriver(){
-        driver.quit();
     }
 
     @Test
     public void testChrome() {
-        String exePath = "C:\\chromedriver_win32\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exePath);
-        WebDriver driver = new ChromeDriver();
-
         driver.get("https://en.wikipedia.org/wiki/Main_Page");
         java.util.List<WebElement> links = driver.findElements(By.tagName("a"));
         System.out.println(links.size());
@@ -38,5 +29,10 @@ public class WikiLinksCounter {
         {
             System.out.println(i+ " " + links.get(i).getText()) ;
         }
+    }
+
+    @AfterClass
+    public static void quitDriver(){
+        driver.quit();
     }
 }

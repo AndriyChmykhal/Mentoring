@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 public class WikiScreenshotsChrome {
-    static WebDriver driver;
+    private static WebDriver driver;
 
     @BeforeClass
     public static void createDriver(){
@@ -19,11 +19,6 @@ public class WikiScreenshotsChrome {
         System.setProperty("webdriver.chrome.driver", exePath);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    }
-
-    @AfterClass
-    public static void quitDriver() {
-        driver.quit();
     }
 
     @Test
@@ -37,6 +32,11 @@ public class WikiScreenshotsChrome {
         driver.findElement(By.xpath(".//*[@id='mp-itn']/div[1]/div/a/img")).click();
         File scrFile2 = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(scrFile2, new File("D:\\screenshots\\" + "Second screenshot.png"));
+    }
+
+    @AfterClass
+    public static void quitDriver() {
+        driver.quit();
     }
 }
 

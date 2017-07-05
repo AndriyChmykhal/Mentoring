@@ -11,19 +11,14 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.util.concurrent.TimeUnit;
 
 public class WikiLinksCounterIE{
-    static WebDriver driver;
+    private static WebDriver driver;
 
     @BeforeClass
     public static void createDriver() {
         String service = "C:\\IEDriverServer_x64_3.4.0\\IEDriverServer.exe";
         System.setProperty("webdriver.ie.driver", service);
-        InternetExplorerDriver driver = new InternetExplorerDriver();
+        driver = new InternetExplorerDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-    }
-
-    @AfterClass
-    public static void quitDriver(){
-        driver.quit();
     }
 
     @Test
@@ -35,5 +30,10 @@ public class WikiLinksCounterIE{
         {
             System.out.println(i+ " " + links.get(i).getText()) ;
         }
+    }
+
+    @AfterClass
+    public static void quitDriver(){
+        driver.quit();
     }
 }

@@ -7,18 +7,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.safari.SafariDriver;
 
 public class WikiLinksCounterSafari {
-    static WebDriver driver;
+    private static WebDriver driver;
 
     @BeforeClass
     public static void createDriver(){
         driver = new SafariDriver();
     }
 
-    @AfterClass
-    public static void quitDriver(){
-        driver.quit();
-    }
-
+    //Test is failed on PC due to inconsistency of required browser's version and driver's version
+    //MacOS is needed for running test on Safari browser
     @Test
     public void testOnSafari() {
         driver.get("https://en.wikipedia.org/wiki/Main_Page");
@@ -28,5 +25,10 @@ public class WikiLinksCounterSafari {
         {
             System.out.println(i+ " " + links.get(i).getText()) ;
         }
+    }
+
+    @AfterClass
+    public static void quitDriver(){
+        driver.quit();
     }
 }
