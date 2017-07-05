@@ -14,13 +14,13 @@ import java.util.concurrent.TimeUnit;
 
 public class GoogleCasesChrome {
     private static WebDriver driver;
-    private static String baseURL = "https://www.google.com";
-    private static String query1 = "selenium automation testing";
-    private static String assert1 = "seleniumhq.org";
-    private static String query2 = "selenium";
-    private static String assert2 = "ibm.com";
-    private static String query3 = "selenium";
-    private static String assert3 = "John Snow";
+    private final String BASE_URL = "https://www.google.com";
+    private final String QUERY_1 = "selenium automation testing";
+    private final String ASSERT_1 = "seleniumhq.org";
+    private final String QUERY_2 = "selenium";
+    private final String ASSERT_2 = "4programmers";
+    private final String QUERY_3 = "selenium";
+    private final String ASSERT_3 = "John Snow";
 
     @BeforeClass
     public static void createDriver() {
@@ -33,31 +33,31 @@ public class GoogleCasesChrome {
     @Test
     public void firstGoogleTest() throws IOException {
         driver.manage().window().maximize();
-        driver.get(baseURL);
-        driver.findElement(By.id("lst-ib")).sendKeys(query1);
+        driver.get(BASE_URL);
+        driver.findElement(By.id("lst-ib")).sendKeys(QUERY_1);
         driver.findElement(By.name("btnG")).click();
-        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + assert1 + "')]"));
+        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + ASSERT_1 + "')]"));
         Assert.assertTrue("Text not found!", list.size() > 0);
     }
 
     @Test
     public void eleventhPageTest() throws IOException {
-        driver.get(baseURL);
-        driver.findElement(By.id("lst-ib")).sendKeys(query2);
+        driver.get(BASE_URL);
+        driver.findElement(By.id("lst-ib")).sendKeys(QUERY_2);
         driver.findElement(By.name("btnG")).click();
         driver.findElement(By.xpath(".//*[@id='nav']/tbody/tr/td[11]/a")).click();
         driver.findElement(By.xpath(".//*[@id='nav']/tbody/tr/td[8]/a[@aria-label='Page 11']")).click();
-        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + assert2 + "')]"));
+        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + ASSERT_2 + "')]"));
         Assert.assertTrue("Text not found!", list.size() > 0);
     }
 
     @Test
     public void thirdGoogleTest() throws IOException {
         driver.manage().window().maximize();
-        driver.get(baseURL);
-        driver.findElement(By.id("lst-ib")).sendKeys(query3);
+        driver.get(BASE_URL);
+        driver.findElement(By.id("lst-ib")).sendKeys(QUERY_3);
         driver.findElement(By.name("btnG")).click();
-        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + assert3 + "')]"));
+        List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + ASSERT_3 + "')]"));
         Assert.assertFalse("Text found!", list.size() > 0);
     }
 
