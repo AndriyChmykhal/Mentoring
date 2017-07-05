@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd8178d5-b20f-4ffc-9ba3-de3588439127" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Andriy_Chmykhal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/FbTestChrome.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/FbTestChrome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/GoogleCasesChrome.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/GoogleCasesChrome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounter.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounterIE.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounterIE.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounterSafari.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/WikiLinksCounterSafari.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/learning/WikiScreenshotsChrome.java" afterPath="$PROJECT_DIR$/src/test/java/com/learning/WikiScreenshotsChrome.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,12 +87,12 @@
       <file leaf-file-name="GoogleCasesChrome.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/learning/GoogleCasesChrome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+            <state relative-caret-position="935">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2609#2610#0" expanded="true" />
-                <element signature="e#2638#2639#0" expanded="true" />
+                <element signature="e#2600#2601#0" expanded="true" />
+                <element signature="e#2629#2630#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1049,16 +1043,17 @@
       <option name="project" value="LOCAL" />
       <updated>1499183635381</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="last changes 05/07">
+      <created>1499263984419</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1499263984419</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoogleCasesChrome - 2017.07.05 at 13h 47m 45s.xml">
-      <configuration name="GoogleCasesChrome" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GoogleCasesChrome - 2017.07.05 at 13h 51m 25s.xml">
-      <configuration name="GoogleCasesChrome" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GoogleCasesChrome - 2017.07.05 at 13h 52m 23s.xml">
       <configuration name="GoogleCasesChrome" configurationId="JUnit" />
     </history-entry>
@@ -1081,6 +1076,12 @@
       <configuration name="GoogleCasesChrome" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GoogleCasesChrome - 2017.07.05 at 17h 12m 48s.xml">
+      <configuration name="GoogleCasesChrome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleCasesChrome - 2017.07.05 at 17h 14m 13s.xml">
+      <configuration name="GoogleCasesChrome" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GoogleCasesChrome - 2017.07.05 at 17h 15m 59s.xml">
       <configuration name="GoogleCasesChrome" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1107,7 +1108,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.065565035" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10561798" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09775281" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25108695" sideWeight="0.496875" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1187,7 +1188,8 @@
     <MESSAGE value="wikicounters" />
     <MESSAGE value="last changes" />
     <MESSAGE value="last changes 04/07" />
-    <option name="LAST_COMMIT_MESSAGE" value="last changes 04/07" />
+    <MESSAGE value="last changes 05/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="last changes 05/07" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1391,12 +1393,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/learning/GoogleCasesChrome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="55" lean-forward="true" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        <state relative-caret-position="935">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2609#2610#0" expanded="true" />
-            <element signature="e#2638#2639#0" expanded="true" />
+            <element signature="e#2600#2601#0" expanded="true" />
+            <element signature="e#2629#2630#0" expanded="true" />
           </folding>
         </state>
       </provider>

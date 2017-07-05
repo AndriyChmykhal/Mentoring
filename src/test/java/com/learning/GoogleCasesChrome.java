@@ -12,8 +12,6 @@ import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-
-
 public class GoogleCasesChrome {
     private static WebDriver driver;
     private static String baseURL = "https://www.google.com";
@@ -22,7 +20,7 @@ public class GoogleCasesChrome {
     private static String query2 = "selenium";
     private static String assert2 = "ibm.com";
     private static String query3 = "selenium";
-    private static String assert3 = "Games of Thrones";
+    private static String assert3 = "John Snow";
 
     @BeforeClass
     public static void createDriver() {
@@ -52,6 +50,7 @@ public class GoogleCasesChrome {
         List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + assert2 + "')]"));
         Assert.assertTrue("Text not found!", list.size() > 0);
     }
+
     @Test
     public void thirdGoogleTest() throws IOException {
         driver.manage().window().maximize();
@@ -60,7 +59,6 @@ public class GoogleCasesChrome {
         driver.findElement(By.name("btnG")).click();
         List<WebElement> list = driver.findElements(By.xpath("//*[contains(text(),'" + assert3 + "')]"));
         Assert.assertFalse("Text found!", list.size() > 0);
-
     }
 
     @AfterClass
