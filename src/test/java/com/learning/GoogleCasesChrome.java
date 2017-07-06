@@ -20,7 +20,7 @@ public class GoogleCasesChrome {
     private final String QUERY_2 = "selenium";
     private final String ASSERT_2 = "4programmers";
     private final String QUERY_3 = "selenium";
-    private final String ASSERT_3 = "John Snow";
+    private final String ASSERT_3 = "JohnSnow";
 
     @BeforeClass
     public static void createDriver() {
