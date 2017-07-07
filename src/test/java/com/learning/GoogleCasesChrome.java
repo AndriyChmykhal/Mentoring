@@ -24,8 +24,7 @@ public class GoogleCasesChrome {
 
     @BeforeClass
     public static void createDriver() {
-        String exePath = "C:\\chromedriver_win32\\chromedriver.exe";
-        System.setProperty("webdriver.chrome.driver", exePath);
+        System.setProperty("webdriver.chrome.driver","driver\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
