@@ -11,7 +11,7 @@ public class Creator {
 
         Logger log = LoggerFactory.getLogger(Creator.class);
 
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of profiles you want to create: ");
         int x=sc.nextInt();
 
